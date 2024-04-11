@@ -1,0 +1,503 @@
+body {
+    background-color: #1b1f24;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav {
+    flex-grow: 2;
+    display: block;
+    justify-content: end;
+    padding-left: 650px;
+    padding-top: 26px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.link {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.link:hover {
+    color: #13bbff;
+    transform: scale(1);
+    transition: all;
+    text-decoration: underline #13bbff;
+}
+
+.home1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.home3:hover {
+    transform: scale(0.6);
+    transition: scale;
+}
+
+.home2 {
+    color: whitesmoke;
+    padding-top: 60px;
+    padding-right: 30px;
+}
+
+#hii {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+#hii:hover {
+    color: #13bbff;
+}
+
+#Front {
+    padding-left: 70px;
+    padding-top: 10px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+#Front:hover {
+    color: #13bbff;
+}
+
+.home2:hover {
+    color: #13bbff;
+}
+
+.check {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #13bbff;
+}
+
+.check:hover {
+    color: whitesmoke;
+}
+
+
+#hii span {
+    color: #13bbff;
+    font-size: 120px;
+}
+
+#hii span:hover {
+    color: whitesmoke;
+}
+
+.link2 a {
+    color: whitesmoke;
+}
+
+.link2 a:hover {
+    color: #13bbff;
+}
+
+.box1 {
+    border: 2px solid;
+    border-color: #13bbff;
+    background-color: #13bbff;
+    color: whitesmoke;
+    box-shadow: 2px 2px 2px white;
+    height: 28px;
+    width: 150px;
+    padding-top: 14px;
+
+}
+
+.box1:hover {
+    transform: scale(0.8);
+    transition: scale 5s;
+}
+
+.box2 {
+    height: 28px;
+    width: 150px;
+    background-color: #1b1f24;
+    color: #13bbff;
+    border: 2px solid #13bbff;
+    box-shadow: 2px 2px 2px #13bbff;
+
+    margin-left: 20px;
+    padding-top: 14px;
+
+}
+
+.box2:hover {
+    transform: scale(0.8);
+    transition: scale 10s;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.hire {
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: block;
+
+}
+
+.Download {
+    padding-left: 30px;
+
+    padding-bottom: 30px;
+    color: #13bbff;
+}
+
+.about3 {
+    text-align: center;
+    color: #13bbff;
+    height: 800;
+    width: 100%;
+    font-size: 43px;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px white;
+}
+
+.about3:hover {
+    transform: scale(1.5);
+    transition: scale;
+}
+
+.about1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about2 {
+    color: whitesmoke;
+
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 50px;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 400;
+}
+
+.aboutmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.photo {
+    height: 210px;
+    width: 1200px;
+    border-radius: 50%;
+}
+
+.photo:hover {
+    transform: scale(0.6);
+    transition: scale;
+}
+
+.skills {
+    color: #13bbff;
+    text-shadow: 2px 2px 2px white;
+}
+
+.skills:hover {
+    transform: scale(0.7);
+    transition: scale;
+}
+
+.skill {
+    padding-left: 80px;
+    color: whitesmoke;
+    font-size: large;
+    font-style: oblique;
+    font-weight: 300;
+
+
+}
+
+.skill1 {
+    color: whitesmoke;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 200;
+}
+
+.study {
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+    color: #13bbff;
+    width: 100%;
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.study:hover {
+    transform: scale(1.5);
+    transition: scale;
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.edu {
+    color: whitesmoke;
+    flex-grow: 1;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 20px;
+
+
+}
+
+.edu1 {
+    height: 500px;
+    width: 850px;
+    border: 2px solid transparent;
+    margin-right: 70px;
+    box-shadow: 6px 6px 10px white;
+    background-color: #05234a;
+}
+
+.edu1:hover {
+    transform: scale(0.7);
+    transition: scale;
+}
+
+.eduimg {
+    padding-top: 50px;
+}
+
+.eduimg:hover {
+    transform: scale(0.8);
+    transition: scale;
+
+}
+
+.hob {
+    text-align: center;
+    color: #13bbff;
+    text-shadow: 2px 2px 2px white;
+    width: 100%;
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.hob:hover {
+    transform: scale(1.5);
+    transition: scale;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 55px;
+
+}
+
+.hobby1 {
+    height: 400px;
+    width: 300px;
+    background-color: #05234a;
+    border: 2px solid transparent;
+    color: whitesmoke;
+    box-shadow: 6px 6px 10px white;
+}
+
+.hobby1:hover {
+    transform: scale(0.9);
+    transition: scale;
+}
+
+.hobby2 {
+    height: 400px;
+    width: 300px;
+    border: 2px solid transparent;
+    background-color: #05234a;
+    color: whitesmoke;
+    box-shadow: 6px 6px 10px white;
+}
+
+.hobby2:hover {
+    transform: scale(0.9);
+    transition: scale;
+}
+
+.hobby3 {
+    height: 400px;
+    width: 300px;
+    border: 2px solid transparent;
+    background-color: #05234a;
+    color: whitesmoke;
+    box-shadow: 6px 6px 10px white;
+}
+
+.hobby3:hover {
+    transform: scale(0.9);
+    transition: scale;
+}
+
+.text1 {
+    padding-left: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    display: block;
+}
+
+.text2 {
+    padding-left: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: block;
+    font-size: 20px;
+}
+
+.text3 {
+    padding-left: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: block;
+    font-size: 20px;
+}
+
+.my {
+    text-align: center;
+    color: #13bbff;
+    text-shadow: 2px 2px 2px white;
+    width: 100%;
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.my:hover {
+    transform: scale(1.5);
+    transition: scale;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 70px;
+
+}
+
+.work1 {
+    background-color: #05234a;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    box-shadow: 6px 6px 10px white;
+}
+
+.work1:hover {
+
+    transform: scale(0.9);
+    transition: scale;
+
+}
+
+.work2 {
+    background-color: #05234a;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    box-shadow: 6px 6px 10px white;
+}
+.work2:hover {
+
+    transform: scale(0.9);
+    transition: scale;
+
+}
+.work3 {
+    background-color: #05234a;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    box-shadow: 6px 6px 10px white;
+}
+.work3:hover {
+
+    transform: scale(0.9);
+    transition: scale;
+
+}
+.vedio {
+    padding-top: 60px;
+    padding-left: 27px;
+}
+
+.music {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.last {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+
+}
+
+.conc {
+    text-align: center;
+    color: #13bbff;
+    text-shadow: 2px 2px 2px white;
+    width: 100%;
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.conc:hover {
+    transform: scale(1.5);
+    transition: scale;
+}
